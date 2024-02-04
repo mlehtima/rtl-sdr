@@ -2,7 +2,7 @@
 
 Name:             rtl-sdr
 URL:              http://sdr.osmocom.org/trac/wiki/rtl-sdr
-Version:          0.6.0
+Version:          2.0.1
 Release:          1
 License:          GPLv2+
 BuildRequires:    cmake
@@ -60,4 +60,5 @@ exit 0
 %files devel
 %{_includedir}/*
 %{_libdir}/*.so
+%{_libdir}/cmake/rtlsdr
 %{_libdir}/pkgconfig/*.pc
